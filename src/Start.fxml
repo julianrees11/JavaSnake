@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Start_Controller">
+   <children>
+      <Button fx:id="buttonStart" layoutX="125.0" layoutY="165.0" mnemonicParsing="false" onAction="#start" prefHeight="71.0" prefWidth="175.0" style="-fx-text-fill: Green; -fx-background-color: Orange;" text="Start">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonControls" layoutX="300.0" layoutY="165.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="175.0" style="-fx-background-color: Green; -fx-text-fill: Orange;" text="Controls">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelTitle" layoutX="218.0" layoutY="40.0" prefHeight="84.0" prefWidth="157.0" style="-fx-background-color: Blue; -fx-text-fill: Yellow;" text="Snake">
+         <font>
+            <Font size="59.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
